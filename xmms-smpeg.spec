@@ -29,7 +29,7 @@ This plugin lets you play mpeg videos with the xmms multimedia player.
 libtoolize --copy --force
 aclocal-1.4
 automake-1.4 -a -c --gnu
-FORCE_AUTOCONF_2_5=1 autoconf-2.5x
+FORCE_AUTOCONF_2_5=1 autoconf
 
 %build
 # I ran into big trouble using the %%configure script, because of libtoolize; it won't link the shared library
