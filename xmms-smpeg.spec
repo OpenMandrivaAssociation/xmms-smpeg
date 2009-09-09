@@ -1,6 +1,6 @@
 %define name xmms-smpeg
 %define version 0.3.5
-%define release %mkrel 9
+%define release %mkrel 10
 
 Name: %{name}
 Summary: This plugin lets you play mpeg videos with the xmms multimedia player
