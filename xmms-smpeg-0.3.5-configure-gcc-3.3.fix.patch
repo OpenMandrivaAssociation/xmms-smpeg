@@ -1,0 +1,45 @@
+--- configure~	2003-07-14 02:58:17.000000000 +0200
++++ configure	2003-07-14 03:03:59.000000000 +0200
+@@ -6655,15 +6655,15 @@ int main (int argc, char *argv[])
+     }
+   else
+     {
+-      printf("\n*** 'smpeg-config --version' returned %d.%d.%d, but the 
++      printf("\n*** 'smpeg-config --version' returned %d.%d.%d, but the \
+ minimum version\n", $smpeg_major_version, $smpeg_minor_version, 
+ $smpeg_micro_version);
+-      printf("*** of SMPEG required is %d.%d.%d. If smpeg-config is 
++      printf("*** of SMPEG required is %d.%d.%d. If smpeg-config is \
+ correct, then it is\n", major, minor, micro);
+       printf("*** best to upgrade to the required version.\n");
+-      printf("*** If smpeg-config was wrong, set the environment variable 
++      printf("*** If smpeg-config was wrong, set the environment variable\ 
+ SMPEG_CONFIG\n");
+-      printf("*** to point to the correct copy of smpeg-config, and remove 
++      printf("*** to point to the correct copy of smpeg-config, and remove\ 
+ the file\n");
+       printf("*** config.cache before re-running configure\n");
+       return 1;
+--- aclocal.m4~	2001-12-07 22:47:23.000000000 +0100
++++ aclocal.m4	2003-07-14 03:07:13.000000000 +0200
+@@ -1366,15 +1366,15 @@ int main (int argc, char *argv[])
+     }
+   else
+     {
+-      printf("\n*** 'smpeg-config --version' returned %d.%d.%d, but the 
+-minimum version\n", $smpeg_major_version, $smpeg_minor_version, 
++      printf("\n*** 'smpeg-config --version' returned %d.%d.%d, but the \
++minimum version\n", $smpeg_major_version, $smpeg_minor_version, \
+ $smpeg_micro_version);
+-      printf("*** of SMPEG required is %d.%d.%d. If smpeg-config is 
++      printf("*** of SMPEG required is %d.%d.%d. If smpeg-config is \
+ correct, then it is\n", major, minor, micro);
+       printf("*** best to upgrade to the required version.\n");
+-      printf("*** If smpeg-config was wrong, set the environment variable 
++      printf("*** If smpeg-config was wrong, set the environment variable \
+ SMPEG_CONFIG\n");
+-      printf("*** to point to the correct copy of smpeg-config, and remove 
++      printf("*** to point to the correct copy of smpeg-config, and remove \
+ the file\n");
+       printf("*** config.cache before re-running configure\n");
+       return 1;
