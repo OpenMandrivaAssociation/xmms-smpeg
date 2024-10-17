@@ -10,7 +10,7 @@ License: GPL
 Group: Video
 Source0: ftp://ftp.xmms.org/xmms/plugins/smpeg-xmms/smpeg-xmms-%{version}.tar.bz2
 Patch0:	%{name}-0.3.5-configure-gcc-3.3.fix.patch
-URL: http://195.139.204.136/xmms/
+URL: https://195.139.204.136/xmms/
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildRequires:	esound-devel
 BuildRequires:	libsmpeg-devel
