@@ -12,6 +12,9 @@ Source0: ftp://ftp.xmms.org/xmms/plugins/smpeg-xmms/smpeg-xmms-%{version}.tar.bz
 Patch0:	%{name}-0.3.5-configure-gcc-3.3.fix.patch
 URL: https://195.139.204.136/xmms/
 BuildRoot: %{_tmppath}/%{name}-buildroot
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	esound-devel
 BuildRequires:	libsmpeg-devel
 BuildRequires:	libxmms-devel
